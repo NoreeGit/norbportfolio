@@ -136,6 +136,16 @@ button[type="submit"]:hover {
   transform: scale(1.05);
 }
 
+body.contact button[type="submit"] {
+  background-color: #ff69b4;
+  color: black;
+}
+
+body.contact button[type="submit"]:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
 /* Responsive layout */
 @media (max-width: 600px) {
   nav {
