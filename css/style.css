@@ -57,11 +57,55 @@ main {
   to { opacity: 1; transform: translateY(0); }
 }
 
+/* Responsive Images */
 .framed {
+  max-width: 250px;
+  width: 100%;
+  display: block;
+  margin: 1em auto;
   border-radius: 10px;
-  max-width: 100%;
   border: 4px solid currentColor;
-  margin-top: 1em;
+}
+
+/* Page-specific framed borders */
+.framed-orange {
+  border-color: #ff7518;
+}
+
+.framed-green {
+  border-color: #39ff14;
+}
+
+.framed-blue {
+  border-color: #00bfff;
+}
+
+.framed-pink {
+  border-color: #ff69b4;
+}
+
+/* Project Images */
+.project img {
+  max-width: 300px;
+  width: 100%;
+  display: block;
+  margin: 1em auto;
+  border-radius: 10px;
+}
+
+/* Project Buttons */
+.project-btn {
+  display: inline-block;
+  margin-top: 0.5em;
+  padding: 0.5em 1em;
+  border-radius: 10px;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.project-btn.blue {
+  background-color: #00bfff;
 }
 
 form {
@@ -92,6 +136,7 @@ button[type="submit"]:hover {
   transform: scale(1.05);
 }
 
+/* Responsive layout */
 @media (max-width: 600px) {
   nav {
     flex-direction: column;
@@ -104,6 +149,7 @@ button[type="submit"]:hover {
   }
 }
 
+/* Scroll animation placeholder (manual .visible trigger needed) */
 .scroll-in {
   opacity: 0;
   transform: translateY(30px);
@@ -115,6 +161,7 @@ button[type="submit"]:hover {
   transform: translateY(0);
 }
 
+/* Page border themes */
 .frame-orange {
   border: 4px solid #ff7518;
 }
@@ -131,26 +178,7 @@ button[type="submit"]:hover {
   border: 4px solid #ff69b4;
 }
 
-.project img {
-  max-width: 100%;
-  border-radius: 10px;
-  margin-top: 1em;
-}
-
-.project-btn {
-  display: inline-block;
-  margin-top: 0.5em;
-  padding: 0.5em 1em;
-  border-radius: 10px;
-  color: black;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.project-btn.blue {
-  background-color: #00bfff;
-}
-
+/* Social Media Colors */
 .social-icons {
   display: flex;
   justify-content: center;
