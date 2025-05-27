@@ -51,7 +51,7 @@ I'm a creative designer turned front-end developer with a strong passion for bui
 Feel free to reach out via the contact form or connect with me on:
 
 - [GitHub](https://github.com/noreegit)
-- [LinkedIn](https://linkedin.com/in/norbertbalogh)
+- [LinkedIn](https://linkedin.com/in/norb-balogh)
 
 ---
 
